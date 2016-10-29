@@ -63,3 +63,16 @@ footer .contenedor{
 	text-align: center;
 }
 
+@media (min-width: 1024px){
+	.contenedor{
+		width: 1000px;		
+	}
+}
+@media (min-width: 768px){
+	.sociales{
+		width: auto;		
+	}
+	footer .contenedor{
+		justify-content: space-between;/*se va a los extremos*/
+	}
+}
